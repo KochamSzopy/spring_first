@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Getting Started with Spring</title>
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'"></p>
+<p>Jeż na poprawę dnia!</p>
+<img src="../static/images/jezhtml.jpg" width="225" height="225" th:src="@{images/jezhtml.jpg}"/>
+</body>
+</html>
